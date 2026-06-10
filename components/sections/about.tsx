@@ -46,23 +46,29 @@ export function About() {
               </span>
             </div>
             <h2 className="mb-6 font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
-              Del diseño a la estrategia de negocios
+              Curiosidad, estrategia y ejecución
             </h2>
             <div className="mb-10 space-y-5 text-[0.93rem] font-light leading-[1.95] text-foreground/45">
               <p>
-                Mi formación en diseño me enseñó algo que los negocios muchas veces olvidan: que los
-                mejores resultados vienen de comprender el problema de verdad antes de proponer la solución.
+                Siempre he destacado por mi energía y por combinar curiosidad, pensamiento estratégico,
+                capacidad de ejecución y experiencia emprendedora. Esto me permite identificar oportunidades
+                donde otros posiblemente ven complejidad.
               </p>
               <p>
-                Llevo más de 15 años en ese espacio: liderando crecimiento, transformación y desarrollo
-                de nuevos negocios en corporaciones y emprendimientos. He visto de cerca cómo una buena
-                idea se pierde por falta de foco, y cómo una empresa puede reinventarse cuando alguien
-                la ayuda a ordenar sus apuestas.
+                Uno de mis súper poderes es que una vez que entiendo el sistema en profundidad, puedo
+                conectar puntos aparentemente inconexos o difíciles de visualizar, construir consensos
+                y transformar oportunidades en iniciativas concretas con impacto en el negocio.
               </p>
               <p>
-                Hoy trabajo con empresas que están enfrentando decisiones relevantes de crecimiento o
-                transformación. En paralelo, construyo mis propios negocios. Eso me mantiene con los
-                pies en la realidad del emprendimiento — no solo en la teoría.
+                Mi foco siempre está en crear valor sostenible: negocios que crecen, generan rentabilidad
+                y pueden sostenerse en el tiempo. Probablemente te voy a empujar a probar cosas nuevas,
+                pensar en nuevos escenarios, y si lo necesitas, tal vez te haga mirar tu negocio desde
+                una perspectiva completamente diferente.
+              </p>
+              <p>
+                Amo la tecnología y me encanta el minuto que estamos viviendo hoy, en donde las respuestas
+                son abundantes, pero el valor sigue estando en formular las preguntas correctas y atreverse
+                a tomar mejores decisiones.
               </p>
             </div>
 

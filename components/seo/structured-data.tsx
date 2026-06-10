@@ -10,7 +10,7 @@ export function StructuredData() {
         "url": "https://www.monicarau.com",
         "image": "https://www.monicarau.com/og-image.jpg",
         "jobTitle": "Consultora en Estrategia, Crecimiento y Transformación",
-        "description": "Consultora estratégica que ayuda a equipos ejecutivos a identificar oportunidades de crecimiento, evaluar iniciativas estratégicas y convertir buenas ideas en negocios sostenibles y rentables. Más de 15 años liderando crecimiento, transformación y nuevos negocios en empresas medianas en Chile.",
+        "description": "Consultora estratégica que combina curiosidad, pensamiento estratégico, capacidad de ejecución y experiencia emprendedora. Identifica oportunidades donde otros ven complejidad, conecta puntos aparentemente inconexos y transforma oportunidades en iniciativas concretas con impacto en el negocio. Más de 15 años liderando crecimiento, transformación y nuevos negocios en empresas medianas en Chile.",
         "email": "hola@monicarau.com",
         "address": {
           "@type": "PostalAddress",
