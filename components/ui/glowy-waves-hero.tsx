@@ -161,11 +161,11 @@ export function GlowyWavesHero() {
           {/* headline */}
           <motion.h1
             variants={itemVariants}
-            className="mb-10 font-serif text-[clamp(3.4rem,7.5vw,7rem)] font-normal leading-[1.04] tracking-tight text-foreground"
+            className="mb-10 font-serif text-[clamp(2.6rem,5.5vw,5.2rem)] font-normal leading-[1.1] tracking-tight text-foreground"
           >
-            La apuesta<br />
-            correcta,{" "}
-            <em className="italic text-primary">ejecutada.</em>
+            ¿Necesitas crecer, mejorar la rentabilidad<br className="hidden lg:block" />
+            o encontrar{" "}
+            <em className="italic text-primary">nuevas oportunidades de negocio?</em>
           </motion.h1>
 
           {/* bottom row */}
@@ -174,11 +174,9 @@ export function GlowyWavesHero() {
             className="grid gap-10 md:grid-cols-2 md:items-end"
           >
             <p className="text-base/[1.9] font-light text-foreground/70 max-w-[46ch]">
-              Trabajo con equipos ejecutivos en Chile que tienen mucho en juego y necesitan
-              apostar bien. Los acompaño a identificar dónde está la oportunidad real, a
-              estructurar las iniciativas relevantes y a ejecutarlas con foco en resultados
-              concretos.{" "}
-              <strong className="font-medium text-foreground">No me quedo en el diagnóstico.</strong>
+              Ayudo a equipos ejecutivos a identificar oportunidades de crecimiento,
+              evaluar iniciativas estratégicas y convertir buenas ideas en negocios
+              sostenibles y rentables.
             </p>
 
             <div className="flex flex-col items-start gap-6 md:items-end">

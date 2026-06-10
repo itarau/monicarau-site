@@ -10,7 +10,7 @@ export function StructuredData() {
         "url": "https://www.monicarau.com",
         "image": "https://www.monicarau.com/og-image.jpg",
         "jobTitle": "Consultora en Estrategia, Crecimiento y Transformación",
-        "description": "Consultora estratégica con más de 15 años liderando crecimiento, transformación y nuevos negocios en empresas medianas en Chile. Fundadora de startups y ex líder de innovación en Walmart Chile.",
+        "description": "Consultora estratégica que ayuda a equipos ejecutivos a identificar oportunidades de crecimiento, evaluar iniciativas estratégicas y convertir buenas ideas en negocios sostenibles y rentables. Más de 15 años liderando crecimiento, transformación y nuevos negocios en empresas medianas en Chile.",
         "email": "hola@monicarau.com",
         "address": {
           "@type": "PostalAddress",
@@ -50,7 +50,7 @@ export function StructuredData() {
         "url": "https://www.monicarau.com",
         "logo": "https://www.monicarau.com/og-image.jpg",
         "image": "https://www.monicarau.com/og-image.jpg",
-        "description": "Consultoría estratégica para empresas medianas en Chile. Especializada en diagnóstico estratégico, business case, liderazgo fractional y transformación organizacional.",
+        "description": "Consultoría estratégica para empresas medianas en Chile. Ayuda a equipos ejecutivos a identificar oportunidades de crecimiento, evaluar iniciativas estratégicas y convertir buenas ideas en negocios sostenibles y rentables. Especializada en diagnóstico estratégico, business case y liderazgo fractional.",
         "email": "hola@monicarau.com",
         "founder": { "@id": "https://www.monicarau.com/#person" },
         "areaServed": [
