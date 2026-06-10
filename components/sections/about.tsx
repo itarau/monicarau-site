@@ -50,25 +50,26 @@ export function About() {
             </h2>
             <div className="mb-10 space-y-5 text-[0.93rem] font-light leading-[1.95] text-foreground/45">
               <p>
-                Siempre he destacado por mi energía y por combinar curiosidad, pensamiento estratégico,
-                capacidad de ejecución y experiencia emprendedora. Esto me permite identificar oportunidades
-                donde otros posiblemente ven complejidad.
+                Siempre he destacado por combinar curiosidad, pensamiento estratégico, capacidad de
+                ejecución y experiencia emprendedora. Esa combinación me permite identificar oportunidades
+                de crecimiento donde otros ven complejidad, incertidumbre o simplemente más trabajo.
               </p>
               <p>
-                Uno de mis súper poderes es que una vez que entiendo el sistema en profundidad, puedo
-                conectar puntos aparentemente inconexos o difíciles de visualizar, construir consensos
-                y transformar oportunidades en iniciativas concretas con impacto en el negocio.
+                Con los años he desarrollado una capacidad particularmente valiosa: entender rápidamente
+                cómo funciona un negocio, conectar puntos aparentemente inconexos y transformar oportunidades
+                en iniciativas concretas con impacto real. Mi rol muchas veces consiste en ayudar a los
+                equipos a ver lo que tienen delante, pero que aún no han logrado articular.
               </p>
               <p>
-                Mi foco siempre está en crear valor sostenible: negocios que crecen, generan rentabilidad
-                y pueden sostenerse en el tiempo. Probablemente te voy a empujar a probar cosas nuevas,
-                pensar en nuevos escenarios, y si lo necesitas, tal vez te haga mirar tu negocio desde
-                una perspectiva completamente diferente.
+                Mi foco está en crear valor sostenible: negocios que crecen, generan rentabilidad y pueden
+                sostenerse en el tiempo. Probablemente te voy a desafiar a probar cosas nuevas, explorar
+                escenarios distintos y mirar tu negocio desde perspectivas que no habías considerado.
               </p>
               <p>
-                Amo la tecnología y me encanta el minuto que estamos viviendo hoy, en donde las respuestas
-                son abundantes, pero el valor sigue estando en formular las preguntas correctas y atreverse
-                a tomar mejores decisiones.
+                Amo la tecnología y me entusiasma profundamente el momento que estamos viviendo. En un
+                mundo donde las respuestas son cada vez más abundantes, el verdadero valor sigue estando
+                en formular las preguntas correctas, conectar información aparentemente dispersa y tomar
+                mejores decisiones.
               </p>
             </div>
 
