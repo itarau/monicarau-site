@@ -179,8 +179,8 @@ export function GlowyWavesHero() {
 
             <div className="flex flex-col items-start gap-6 md:items-end">
               <p className="border-l border-primary/60 pl-4 text-sm/[1.75] font-light text-foreground/40 md:border-l-0 md:border-r md:pl-0 md:pr-4 md:text-right">
-                Más de 15 años ayudando a organizaciones a convertir<br className="hidden md:block" />
-                oportunidades complejas en decisiones claras.
+                Tengo la capacidad de detectar oportunidades antes de que sean<br className="hidden md:block" />
+                evidentes para el resto y convertirlas en decisiones ejecutables.
               </p>
               <div className="flex flex-wrap gap-3">
                 <a
