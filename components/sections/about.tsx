@@ -22,8 +22,8 @@ export function About() {
         {/* image */}
         <div className="relative min-h-[340px] overflow-hidden lg:min-h-[700px]">
           <Image
-            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=900&q=80&fit=crop"
-            alt="Mónica Rau — consultora en estrategia y crecimiento"
+            src="/about-strategy.png"
+            alt="Equipo trabajando en estrategia y mapeo de oportunidades de negocio"
             fill
             className="object-cover brightness-75 grayscale-[25%] transition-transform duration-700 hover:scale-[1.02]"
             sizes="(max-width: 1024px) 100vw, 50vw"
@@ -45,9 +45,20 @@ export function About() {
                 Sobre mí
               </span>
             </div>
-            <h2 className="mb-6 font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
-              Curiosidad, estrategia y ejecución
-            </h2>
+            <div className="mb-6 flex items-center justify-between gap-6">
+              <h2 className="font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
+                Curiosidad, estrategia y ejecución
+              </h2>
+              <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-full border border-border/40 sm:h-20 sm:w-20">
+                <Image
+                  src="/monica-rau.jpg"
+                  alt="Mónica Rau"
+                  fill
+                  className="object-cover"
+                  sizes="80px"
+                />
+              </div>
+            </div>
             <div className="mb-10 space-y-5 text-[0.93rem] font-light leading-[1.95] text-foreground/60">
               <p>
                 Siempre he destacado por combinar curiosidad, pensamiento estratégico, capacidad de
