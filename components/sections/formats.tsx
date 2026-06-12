@@ -23,7 +23,7 @@ export function Formats() {
         </span>
       </div>
       <h2 className="mb-16 font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
-        Cómo trabajamos juntos
+        Distintas modalidades que se ajustan a lo que necesitas
       </h2>
 
       <div ref={ref} className="grid gap-4 sm:grid-cols-3">
