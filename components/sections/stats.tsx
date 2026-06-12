@@ -8,7 +8,7 @@ const stats = [
   { value: "15+", label: "años liderando crecimiento, transformación y nuevos negocios" },
   { value: "3", label: "áreas de impacto: Growth · Transformation · New Ventures" },
   { value: "2", label: "startups fundadas y operadas" },
-  { value: "Experiencia Híbrida", label: "Mundo Corporativo y Ecosistema Startup", small: true },
+  { value: "Experiencia\nHíbrida", label: "Mundo Corporativo y Ecosistema Startup", small: true },
 ];
 
 export function Stats() {
@@ -29,8 +29,8 @@ export function Stats() {
           className={`flex flex-col items-center gap-2 py-8 text-center ${i > 0 ? "border-l border-border/40 pl-4 lg:pl-8" : ""}`}
         >
           <span
-            className={`font-serif font-normal leading-none tracking-tight text-primary ${
-              s.small ? "text-[clamp(1.1rem,2.4vw,1.7rem)]" : "text-[clamp(1.6rem,4vw,3rem)]"
+            className={`whitespace-pre-line font-serif font-normal tracking-tight text-primary ${
+              s.small ? "text-[clamp(1.1rem,2.4vw,1.7rem)] leading-tight" : "text-[clamp(1.6rem,4vw,3rem)] leading-none"
             }`}
           >
             {s.value}
