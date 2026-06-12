@@ -8,7 +8,7 @@ const stats = [
   { value: "15+", label: "años liderando crecimiento, transformación y nuevos negocios" },
   { value: "3", label: "áreas de impacto: Growth · Transformation · New Ventures" },
   { value: "2", label: "startups fundadas y operadas" },
-  { value: "Híbrida", label: "experiencia corporativa y startup, en ambos mundos" },
+  { value: "Experiencia Híbrida", label: "Me muevo indistintamente tanto en el mundo corporativo como en el startup", small: true },
 ];
 
 export function Stats() {
@@ -28,7 +28,11 @@ export function Stats() {
           transition={{ duration: 0.6, delay: i * 0.1 }}
           className={`flex flex-col items-center gap-2 py-8 text-center ${i > 0 ? "border-l border-border/40 pl-4 lg:pl-8" : ""}`}
         >
-          <span className="font-serif text-[clamp(1.6rem,4vw,3rem)] font-normal leading-none tracking-tight text-primary">
+          <span
+            className={`font-serif font-normal leading-none tracking-tight text-primary ${
+              s.small ? "text-[clamp(1.1rem,2.4vw,1.7rem)]" : "text-[clamp(1.6rem,4vw,3rem)]"
+            }`}
+          >
             {s.value}
           </span>
           <span className="max-w-[16ch] text-[0.8rem] font-light leading-[1.5] text-foreground/55">
