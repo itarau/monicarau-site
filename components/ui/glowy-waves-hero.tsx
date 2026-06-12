@@ -163,8 +163,8 @@ export function GlowyWavesHero() {
             variants={itemVariants}
             className="mb-10 font-serif text-[clamp(2.6rem,5.5vw,5.2rem)] font-normal leading-[1.1] tracking-tight text-foreground"
           >
-            Ayudo a tu empresa a crecer identificando{" "}
-            <em className="italic text-primary">nuevas oportunidades de negocio.</em>
+            Ayudo a empresas a encontrar{" "}
+            <em className="italic text-primary">nuevas fuentes de crecimiento rentable.</em>
           </motion.h1>
 
           {/* bottom row */}
@@ -173,8 +173,8 @@ export function GlowyWavesHero() {
             className="grid gap-10 md:grid-cols-2 md:items-end"
           >
             <p className="text-base/[1.9] font-light text-foreground/70 max-w-[46ch]">
-              Encontramos dónde están las mejores oportunidades, definimos dónde
-              apostar y las convertimos en resultados concretos.
+              Evaluamos oportunidades, priorizamos inversiones y transformamos
+              ideas en iniciativas sostenibles y ejecutables.
             </p>
 
             <div className="flex flex-col items-start gap-6 md:items-end">
