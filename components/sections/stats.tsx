@@ -8,7 +8,7 @@ const stats = [
   { value: "15+", label: "años liderando crecimiento, transformación y nuevos negocios" },
   { value: "3", label: "áreas de impacto: Growth · Transformation · New Ventures" },
   { value: "2", label: "startups fundadas y operadas" },
-  { value: "Experiencia Híbrida", label: "Me muevo indistintamente tanto en el mundo corporativo como en el startup", small: true },
+  { value: "Experiencia Híbrida", label: "Mundo Corporativo y Ecosistema Startup", small: true },
 ];
 
 export function Stats() {
