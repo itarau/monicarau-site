@@ -33,7 +33,7 @@ export function About() {
         </div>
 
         {/* text */}
-        <div ref={ref} className="flex flex-col justify-center px-8 py-16 lg:px-16 lg:py-24">
+        <div ref={ref} className="flex flex-col justify-center px-8 py-14 lg:px-16 lg:py-20">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}

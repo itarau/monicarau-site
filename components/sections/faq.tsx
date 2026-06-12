@@ -31,14 +31,14 @@ export function FAQ() {
   const [open, setOpen] = useState<number | null>(null);
 
   return (
-    <section id="faq" className="px-6 py-28 lg:px-16">
+    <section id="faq" className="px-6 py-20 lg:px-16">
       <div className="mb-3 flex items-center gap-3">
         <span className="h-px w-6 bg-primary/70" />
         <span className="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-primary">
           Preguntas frecuentes
         </span>
       </div>
-      <h2 className="mb-16 font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
+      <h2 className="mb-12 font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
         Lo que suelen preguntar antes de trabajar juntos
       </h2>
 

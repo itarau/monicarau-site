@@ -19,8 +19,8 @@ export function Challenges() {
   const inView = useInView(ref, { once: true, margin: "-60px" });
 
   return (
-    <section id="desafios" className="px-6 py-28 lg:px-16">
-      <div className="mb-16">
+    <section id="desafios" className="px-6 py-20 lg:px-16">
+      <div className="mb-12">
         <div className="mb-3 flex items-center gap-3">
           <span className="h-px w-6 bg-primary/70" />
           <span className="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-primary">

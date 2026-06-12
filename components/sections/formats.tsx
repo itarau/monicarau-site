@@ -15,14 +15,14 @@ export function Formats() {
   const inView = useInView(ref, { once: true, margin: "-60px" });
 
   return (
-    <section id="formatos" className="px-6 py-28 lg:px-16">
+    <section id="formatos" className="px-6 py-20 lg:px-16">
       <div className="mb-3 flex items-center gap-3">
         <span className="h-px w-6 bg-primary/70" />
         <span className="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-primary">
           Formatos de trabajo
         </span>
       </div>
-      <h2 className="mb-16 font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
+      <h2 className="mb-12 font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
         Distintas modalidades que se ajustan a lo que necesitas
       </h2>
 

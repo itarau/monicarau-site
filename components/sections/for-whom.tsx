@@ -17,7 +17,7 @@ export function ForWhom() {
   const inView = useInView(ref, { once: true, margin: "-60px" });
 
   return (
-    <section id="para-quien" className="bg-foreground/[0.015] px-6 py-28 lg:px-16">
+    <section id="para-quien" className="bg-foreground/[0.015] px-6 py-20 lg:px-16">
       <div className="grid gap-16 lg:grid-cols-2 lg:gap-24">
         <div>
           <div className="mb-3 flex items-center gap-3">

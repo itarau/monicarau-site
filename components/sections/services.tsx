@@ -35,9 +35,9 @@ export function Services() {
   const inView = useInView(ref, { once: true, margin: "-60px" });
 
   return (
-    <section id="servicios" className="bg-background/40 px-6 py-28 lg:px-16">
+    <section id="servicios" className="bg-background/40 px-6 py-20 lg:px-16">
       {/* header */}
-      <div className="mb-14 max-w-2xl lg:mb-20">
+      <div className="mb-10 max-w-2xl lg:mb-14">
         <div className="mb-3 flex items-center gap-3">
           <span className="h-px w-6 bg-primary/70" />
           <span className="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-primary">
