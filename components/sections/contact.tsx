@@ -43,7 +43,7 @@ export function Contact() {
           initial={{ opacity: 0, y: 16 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="mb-10 text-[0.93rem] font-light leading-[1.85] text-foreground/40"
+          className="mb-10 text-[0.93rem] font-light leading-[1.85] text-foreground/60"
         >
           Agenda una conversación exploratoria para entender si hay fit.
         </motion.p>

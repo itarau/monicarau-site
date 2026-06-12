@@ -29,7 +29,7 @@ export function ForWhom() {
           <h2 className="font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
             Empresas medianas que tienen mucho en juego
           </h2>
-          <p className="mt-4 text-[0.93rem] font-light leading-[1.9] text-foreground/40">
+          <p className="mt-4 text-[0.93rem] font-light leading-[1.9] text-foreground/60">
             No trabajo con todo el mundo. Trabajo bien con empresas que se reconocen en alguno de estos perfiles.
           </p>
         </div>
@@ -41,7 +41,7 @@ export function ForWhom() {
               initial={{ opacity: 0, x: 16 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.5, delay: i * 0.08 }}
-              className="group flex items-baseline gap-3 py-5 text-[0.93rem] font-light leading-[1.7] text-foreground/40 transition-colors duration-200 hover:text-foreground/70"
+              className="group flex items-baseline gap-3 py-5 text-[0.93rem] font-light leading-[1.7] text-foreground/55 transition-colors duration-200 hover:text-foreground/70"
             >
               <span className="flex-shrink-0 text-[0.8rem] text-primary/70 transition-transform duration-200 group-hover:translate-x-1">
                 →

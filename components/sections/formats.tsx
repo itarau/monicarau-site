@@ -42,7 +42,7 @@ export function Formats() {
             <div className="mb-5 text-[0.62rem] font-semibold uppercase tracking-[0.14em] text-primary/80">
               {f.duration}
             </div>
-            <p className="text-[0.87rem] font-light leading-[1.85] text-foreground/40">{f.desc}</p>
+            <p className="text-[0.87rem] font-light leading-[1.85] text-foreground/55">{f.desc}</p>
           </motion.div>
         ))}
       </div>

@@ -48,7 +48,7 @@ export function Services() {
           <h2 className="font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
             Tres formas de trabajar juntos
           </h2>
-          <p className="mt-4 mb-8 text-[0.93rem] font-light leading-[1.9] text-foreground/40">
+          <p className="mt-4 mb-8 text-[0.93rem] font-light leading-[1.9] text-foreground/60">
             Dependiendo del momento en que se encuentra tu empresa, el acompañamiento tiene distinta forma.
           </p>
           <a
@@ -81,14 +81,14 @@ export function Services() {
                 {s.title}
               </h3>
               {s.subtitle && (
-                <p className="text-[0.82rem] italic font-light text-foreground/35 mb-3">{s.subtitle}</p>
+                <p className="text-[0.82rem] italic font-light text-foreground/50 mb-3">{s.subtitle}</p>
               )}
-              <p className="text-[0.87rem] font-light leading-[1.85] text-foreground/40 mb-5">
+              <p className="text-[0.87rem] font-light leading-[1.85] text-foreground/55 mb-5">
                 {s.desc}
               </p>
               <ul className="flex flex-col gap-1.5 border-t border-border/40 pt-4">
                 {s.deliverables.map((d) => (
-                  <li key={d} className="flex items-baseline gap-2 text-[0.73rem] font-light text-foreground/25">
+                  <li key={d} className="flex items-baseline gap-2 text-[0.73rem] font-light text-foreground/40">
                     <span className="text-primary/60 text-xs">—</span>
                     {d}
                   </li>

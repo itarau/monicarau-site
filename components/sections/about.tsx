@@ -48,7 +48,7 @@ export function About() {
             <h2 className="mb-6 font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
               Curiosidad, estrategia y ejecución
             </h2>
-            <div className="mb-10 space-y-5 text-[0.93rem] font-light leading-[1.95] text-foreground/45">
+            <div className="mb-10 space-y-5 text-[0.93rem] font-light leading-[1.95] text-foreground/60">
               <p>
                 Siempre he destacado por combinar curiosidad, pensamiento estratégico, capacidad de
                 ejecución y experiencia emprendedora. Esa combinación me permite identificar oportunidades
@@ -85,7 +85,7 @@ export function About() {
                   <span className="min-w-[90px] text-[0.63rem] font-semibold uppercase tracking-[0.08em] text-primary/80">
                     {c.year}
                   </span>
-                  <span className="text-[0.83rem] font-light leading-snug text-foreground/40">
+                  <span className="text-[0.83rem] font-light leading-snug text-foreground/55">
                     {c.text}
                   </span>
                 </motion.div>

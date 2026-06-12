@@ -30,7 +30,7 @@ export function Challenges() {
         <h2 className="font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
           ¿Te reconoces en alguno de estos?
         </h2>
-        <p className="mt-4 max-w-[52ch] text-[0.93rem] font-light leading-[1.9] text-foreground/40">
+        <p className="mt-4 max-w-[52ch] text-[0.93rem] font-light leading-[1.9] text-foreground/60">
           Estas son las conversaciones que tengo con los equipos con los que trabajo.
           Si alguna resuena, probablemente hay algo en lo que puedo ayudarte.
         </p>

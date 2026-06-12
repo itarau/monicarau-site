@@ -37,7 +37,7 @@ export function Stats() {
               {s.label}
             </span>
           )}
-          <span className="text-[0.7rem] font-light leading-snug text-foreground/35">
+          <span className="text-[0.7rem] font-light leading-snug text-foreground/50">
             {s.num ? s.label : s.sub}
           </span>
         </motion.div>

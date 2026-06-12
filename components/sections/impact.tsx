@@ -37,7 +37,7 @@ export function Impact() {
       <h2 className="mb-4 font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
         Evidencia, no promesas
       </h2>
-      <p className="mb-16 max-w-[52ch] text-[0.93rem] font-light leading-[1.9] text-foreground/40">
+      <p className="mb-16 max-w-[52ch] text-[0.93rem] font-light leading-[1.9] text-foreground/60">
         Proyectos reales en los que he trabajado directamente — desde la estrategia hasta la ejecución.
       </p>
 
@@ -56,7 +56,7 @@ export function Impact() {
             <div className="mb-5 text-[0.62rem] font-semibold uppercase tracking-[0.14em] text-primary/80">
               {c.role}
             </div>
-            <p className="text-[0.87rem] font-light leading-[1.85] text-foreground/40">{c.desc}</p>
+            <p className="text-[0.87rem] font-light leading-[1.85] text-foreground/55">{c.desc}</p>
           </motion.div>
         ))}
       </div>
