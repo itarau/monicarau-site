@@ -36,7 +36,7 @@ export function Contact() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="mb-4 font-serif text-[clamp(2.2rem,5vw,4rem)] font-normal leading-[1.1] tracking-tight text-foreground"
         >
-          ¿Tu empresa necesita apostar mejor?
+          ¿Tomémonos un café?
         </motion.h2>
 
         <motion.p
