@@ -30,6 +30,15 @@ export function About() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background/[0.015] to-transparent lg:from-foreground/[0.015]" />
           <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent lg:from-foreground/[0.04]" />
+          <div className="absolute bottom-6 right-6 h-24 w-24 overflow-hidden rounded-full border-2 border-background shadow-lg sm:h-[7.5rem] sm:w-[7.5rem]">
+            <Image
+              src="/monica-rau.jpg"
+              alt="Mónica Rau"
+              fill
+              className="object-cover"
+              sizes="120px"
+            />
+          </div>
         </div>
 
         {/* text */}
@@ -45,20 +54,9 @@ export function About() {
                 Sobre mí
               </span>
             </div>
-            <div className="mb-6 flex items-center justify-between gap-6">
-              <h2 className="font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
-                Curiosidad, estrategia y ejecución
-              </h2>
-              <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-full border border-border/40 sm:h-20 sm:w-20">
-                <Image
-                  src="/monica-rau.jpg"
-                  alt="Mónica Rau"
-                  fill
-                  className="object-cover"
-                  sizes="80px"
-                />
-              </div>
-            </div>
+            <h2 className="mb-6 font-serif text-[clamp(2rem,4vw,3.2rem)] font-normal leading-[1.15] tracking-tight text-foreground">
+              Curiosidad, estrategia y ejecución
+            </h2>
             <div className="mb-10 space-y-5 text-[0.93rem] font-light leading-[1.95] text-foreground/60">
               <p>
                 Siempre he destacado por combinar curiosidad, pensamiento estratégico, capacidad de
