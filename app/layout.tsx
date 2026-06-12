@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Inter, Sora } from "next/font/google";
 import "./globals.css";
 import { StructuredData } from "@/components/seo/structured-data";
 
@@ -9,11 +9,10 @@ const inter = Inter({
   weight: ["300", "400", "500", "600"],
 });
 
-const playfair = Playfair_Display({
+const sora = Sora({
   variable: "--font-playfair",
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
-  style: ["normal", "italic"],
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -81,7 +80,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="es" className={`${inter.variable} ${sora.variable}`}>
       <head>
         <StructuredData />
       </head>
